@@ -1,301 +1,249 @@
 [0m[[0minfo[0m] [0mUpdating {file:/home/sokupa/workspace/bitcoin/}bitcoin...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#bitcoin_2.9.1;1.0[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#bitcoin_2.10;1.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d5ff550[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1d5ff550[0m
-[0m[[0mdebug[0m] [0m		tried /home/sokupa/.ivy2/local/org.scala-lang/scala-library/2.9.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.9.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#scala-library;2.9.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom (2.9.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.9.1!scala-library.pom(pom.original) (337ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/sokupa/.ivy2/local/org.scala-lang/scala-library/2.9.1/jars/scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.1 in jcenter[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor;2.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor;2.0 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor;2.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor;2.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/sokupa/.ivy2/local/com.typesafe.akka/akka-actor/2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-actor;2.0[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: no ivy file found for com.typesafe.akka#akka-actor;2.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.akka#akka-actor;2.0[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for com.typesafe.akka#akka-actor;2.0[0m
-[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.pom (2.0)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor;2.0!akka-actor.pom(pom.original) (841ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/sokupa/.ivy2/local/com.typesafe.akka/akka-actor/2.0/jars/akka-actor.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.jar[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor;2.0 in Typesafe Repository[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->compile(*)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.1-1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.1-1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/sokupa/.ivy2/local/org.scala-lang/scala-library/2.9.1-1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.9.1-1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#scala-library;2.9.1-1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.pom (2.9.1-1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.9.1-1!scala-library.pom(pom.original) (312ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/sokupa/.ivy2/local/org.scala-lang/scala-library/2.9.1-1/jars/scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.1-1 in jcenter[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e3574e2[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.5] org.scala-lang#scala-library;2.10.5[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.2-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.2-M1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.2-M1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.2-M1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.0.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.0.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0->org.scala-lang#scala-library;2.9.1-1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->com.typesafe.akka#akka-actor;2.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.9.1;1.0 [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-compiler;2.9.1 [scala-tool->default][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.9.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.9.1 {scala-tool=[default, optional(default)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.9.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.9.1 {scala-tool=[default, optional(default)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/sokupa/.ivy2/local/org.scala-lang/scala-compiler/2.9.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-compiler;2.9.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#scala-compiler;2.9.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.pom (2.9.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.9.1!scala-compiler.pom(pom.original) (385ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/sokupa/.ivy2/local/org.scala-lang/scala-compiler/2.9.1/jars/scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.9.1 in jcenter[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-compiler;2.9.1 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-compiler;2.9.1 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#scala-library;2.9.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#scala-library;2.9.1 [compile->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#scala-library;2.9.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#scala-library;2.9.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#scala-library;2.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#scala-library;2.9.1 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#scala-library;2.9.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#scala-library;2.9.1 [compile->optional(default)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#scala-library;2.9.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-compiler;2.9.1 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-compiler;2.9.1 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#jline;2.9.1 [optional->compile(*)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.9.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.9.1 {optional=[compile(*), master(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.9.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#jline;2.9.1 {optional=[compile(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/sokupa/.ivy2/local/org.scala-lang/jline/2.9.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#jline;2.9.1[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#jline;2.9.1[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.pom (2.9.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#jline;2.9.1!jline.pom(pom.original) (381ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/sokupa/.ivy2/local/org.scala-lang/jline/2.9.1/jars/jline.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.9.1 in jcenter[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.9.1->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bitcoin_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.5 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.5] org.scala-lang#scala-reflect;2.10.5[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-compiler;2.10.5 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#jline;2.10.5 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.5 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#jline;2.10.5 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.5->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.9.1->org.fusesource.jansi#jansi;1.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.9.1->org.scala-lang#jline;2.9.1 [optional->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.5->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bitcoin_2.10;1.0->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.9.1!scala-library.jar (6662ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0/akka-actor-2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor;2.0!akka-actor.jar (2915ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.9.1-1!scala-library.jar (10353ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.9.1!scala-compiler.jar (9858ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/jline/2.9.1/jline-2.9.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#jline;2.9.1!jline.jar (941ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2-M1!akka-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.0!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8146ms :: artifacts dl 30771ms[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 compile produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 runtime produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 test produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 provided produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 optional produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 compile-internal produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 runtime-internal produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 test-internal produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 plugin produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 sources produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 docs produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 pom produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.9.1;1.0 scala-tool produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.9.1-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (8146ms resolve - 30771ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1541ms :: artifacts dl 60ms[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 compile produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 runtime produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 test produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 provided produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 optional produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 compile-internal produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 runtime-internal produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 test-internal produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 plugin produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 sources produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 docs produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 pom produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#bitcoin_2.10;1.0 scala-tool produced in /home/sokupa/workspace/bitcoin/target/resolution-cache/reports/default-bitcoin_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1541ms resolve - 60ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
-[0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
-[0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:2.9.1 -> 2.9.1-1[0m
-[0m[[33mwarn[0m] [0mTo force scalaVersion, add the following:[0m
-[0m[[33mwarn[0m] [0m	ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }[0m
-[0m[[33mwarn[0m] [0mRun 'evicted' to see detailed eviction warnings[0m

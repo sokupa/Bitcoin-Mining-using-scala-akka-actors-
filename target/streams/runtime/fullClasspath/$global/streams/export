@@ -1,1 +1,1 @@
-/home/sokupa/workspace/bitcoin/target/scala-2.9.1/classes:/home/sokupa/.ivy2/cache/com.typesafe.akka/akka-actor/jars/akka-actor-2.0.jar:/home/sokupa/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.1-1.jar
+/home/sokupa/workspace/bitcoin/target/scala-2.10/classes:/home/sokupa/.sbt/boot/scala-2.10.5/lib/scala-library.jar:/home/sokupa/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2-M1.jar:/home/sokupa/.ivy2/cache/com.typesafe/config/bundles/config-1.0.0.jar

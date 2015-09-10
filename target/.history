@@ -1,2 +1,15 @@
 compile
 run
+compile
+run
+q
+run
+compile
+run
+exit
+compile
+run
+sbt
+run
+compile
+run
