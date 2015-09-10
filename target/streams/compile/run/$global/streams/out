@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0mRunning Main [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/home/sokupa/workspace/bitcoin/target/scala-2.9.1/classes[0m
+[0m[[0mdebug[0m] [0m	/home/sokupa/.ivy2/cache/com.typesafe.akka/akka-actor/jars/akka-actor-2.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sokupa/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.1-1.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread HelloSystem-akka.actor.default-dispatcher-3 to terminate.[0m
