@@ -1,0 +1,91 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/sokupa/workspace/Bitcoin/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 5d19d8e4, interfacing (CompilerInterface) with Scala compiler version 2.10.5[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/sokupa/.sbt/boot/scala-2.10.5/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/sokupa/workspace/Bitcoin/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:4: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.Actor[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:5: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.ActorRef[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:6: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.ActorSystem[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:7: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.Props[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:8: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.actorRef2Scala[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:9: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.routing.{RoundRobinRouter}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:10: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.PoisonPill[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:12: object typesafe is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.typesafe.config.ConfigFactory[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:23: not found: value ActorSystem[0m
+[0m[[31merror[0m] [0m  val system= ActorSystem("MainSystem")[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:30: not found: type Actor[0m
+[0m[[31merror[0m] [0mclass Server extends Actor{[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:31: missing parameter type for expanded function[0m
+[0m[[31merror[0m] [0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[31merror[0m] [0mExpected type was: ?[0m
+[0m[[31merror[0m] [0m  def receive={[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:37: not found: type Actor[0m
+[0m[[31merror[0m] [0mclass BitCoinMining(k: Integer) extends Actor{[0m
+[0m[[31merror[0m] [0m                                        ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:38: not found: value context[0m
+[0m[[31merror[0m] [0m  var worker=context.actorFor("akka://WorkerSystem@127.0.0.1:4000/user/Client")[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:40: missing parameter type for expanded function[0m
+[0m[[31merror[0m] [0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[31merror[0m] [0mExpected type was: ?[0m
+[0m[[31merror[0m] [0m  def receive={[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:48: not found: value context[0m
+[0m[[31merror[0m] [0m      var miner=context.actorOf(Props[CheckBitcoins].withRouter(RoundRobinRouter(actorcount)))[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:61: not found: type Actor[0m
+[0m[[31merror[0m] [0mclass CheckBitcoins extends Actor{[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:62: missing parameter type for expanded function[0m
+[0m[[31merror[0m] [0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[31merror[0m] [0mExpected type was: ?[0m
+[0m[[31merror[0m] [0m  def receive={[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:71: not found: value sender[0m
+[0m[[31merror[0m] [0m      sender ! TotalTrials()[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/home/sokupa/workspace/Bitcoin/src/main/scala/proj1.scala:78: not found: value sender[0m
+[0m[[31merror[0m] [0m          sender ! BitCoinsByServer(bitcoin, res)[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m19 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

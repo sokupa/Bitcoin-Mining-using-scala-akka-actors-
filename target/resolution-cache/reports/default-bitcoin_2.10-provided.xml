@@ -4,10 +4,10 @@
 	<info
 		organisation="default"
 		module="bitcoin_2.10"
-		revision="1.0"
+		revision="0.1-SNAPSHOT"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150910150034"/>
+		date="20150912223756"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>
