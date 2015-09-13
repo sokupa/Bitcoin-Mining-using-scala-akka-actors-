@@ -16,13 +16,14 @@ case class ProcessMining(k: Integer, gatorId: String)
 object worker extends App{
   val system=ActorSystem("WorkerSystem")
   val worker=system.actorOf(Props[Client],"Client")
+  system.awaitTermination()
 }
 
 class Client extends Actor{
   private var clienttry = 0
   def receive={
     case msg: String=>{
-      println("Inside client: Received from server"+msg)
+     // println("Inside client: Received from server"+msg)
       val clientworkercount=5
       val clientworker=context.actorOf(Props[CheckBitcoins].withRouter(RoundRobinRouter(clientworkercount)))
       val k: Integer=msg.charAt(0)-'0'
@@ -32,7 +33,7 @@ class Client extends Actor{
       case ClientProcessCount() =>{
         clienttry = clienttry + 1
       if(clienttry>=100000)
-         context.system.shutdown()
+        // context.system.shutdown()
       }
 
 
@@ -42,7 +43,7 @@ class Client extends Actor{
 }
 
 class CheckBitcoins extends Actor {
-  var Toserver = context.actorFor("akka://MainSystem@127.0.0.1:5151/user/Server")
+  var Toserver = context.actorFor("akka://MainSystem@127.0.0.1:5149/user/Server")
 
   def receive = {
     case ProcessMining(k, gatorID) => {
@@ -52,11 +53,6 @@ class CheckBitcoins extends Actor {
       var sha = MessageDigest.getInstance("SHA-256").digest(tobehashed.getBytes("UTF-8"))
       var res = sha.map("%02x".format(_)).mkString
       var count1 =1
-      if(count == 1)
-        {
-         println("Client Process"+res)
-         count1 =0
-        }
       val hashstring = new StringBuffer()
      // println("\n Client ProcessMining " + res)
       hashstring.append(res)
