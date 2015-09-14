@@ -38,16 +38,17 @@ case class serverstart()
 *    Result(): Publishes result calculated by server and remote client
  ********************************************************************************************/
 class Server(numberofZeroes: Int) extends Actor {
-  var totaltries = 10000
+  var totaltries = 100
   var worksize = 10000
   var workersremote = 0
   var serverworker = (Runtime.getRuntime().availableProcessors()) * 2
   var totalcoin = 0
   var currentCointcount = 0
+  var serverminedcount = 0
+  var clientminedcount = 0
   var finishedworkercount: Int = 1
   var Finalmap = new HashMap[String, String]
   var start: Long = _
-  var inputprocessed = 0
 
   def receive = {
     case serverstart() => {
@@ -60,7 +61,7 @@ class Server(numberofZeroes: Int) extends Actor {
 
     }
     case Pollwork(whichWorker) => {
-      println("pollwork start \n")
+      println("Client Connection Request \n")
       if (whichWorker.equalsIgnoreCase("remoteworker"))
         workersremote = workersremote + 1
       sender ! startwork(1, worksize, numberofZeroes, "remoteworker")
@@ -68,9 +69,13 @@ class Server(numberofZeroes: Int) extends Actor {
     case Result(resultmap, whichworker) => {
       currentCointcount = resultmap.size
       totalcoin += currentCointcount
-      inputprocessed += worksize
+      if (whichworker.equalsIgnoreCase("remoteworker"))
+         clientminedcount = clientminedcount + currentCointcount
+      else
+         serverminedcount = serverminedcount + currentCointcount
       totaltries = totaltries - 1
-      println("current worker " + whichworker + " vaild Bit coin count " + currentCointcount)
+     if(currentCointcount>0)
+      println("current worker " + whichworker)
       resultmap.foreach { keyVal => println(keyVal._1 + "\t" + keyVal._2) }
       resultmap.foreach { keyVal => Finalmap.put(keyVal._1, keyVal._2) }
       if (totaltries > 0) {
@@ -78,9 +83,12 @@ class Server(numberofZeroes: Int) extends Actor {
       }
       else {
         if (finishedworkercount == (workersremote + serverworker)) {
+	  println("\n**********************************Consolidated Output******************************************************************\n")
           Finalmap.foreach { keyVal => println(keyVal._1 + " " + keyVal._2) }
-          println("Total number of input processed: " + inputprocessed)
-          println("\n Number of Bitcoins found : %s\nTotal time taken : %s millis".format(totalcoin, (System.currentTimeMillis - start)))
+          println("\n Number of Bitcoins found : %s\nTotal time taken : %s milliseconds".format(totalcoin, (System.currentTimeMillis - start)))
+          println("Coines Mined by remote client: "+clientminedcount)
+          println("Coines Mined by Server: "+serverminedcount)
+          println("\n***********************************End of Result***********************************************************************\n")
           context.stop(self)
         }
         else {
@@ -103,12 +111,12 @@ class Worker extends Actor {
 
   def receive = {
     case serverIp(serverip) => {
-      println("Logtag_Worker: Server IP" + serverip)
+      //println("Logtag_Worker: Server IP" + serverip)
       val RoutetoServer = context.actorFor("akka://ServerSystem@" + serverip + ":5155/user/Server")
       RoutetoServer ! Pollwork("remoteworker")
     }
     case startwork(start, nrOfElements, noOfZeroes, whichworker) => {
-      println("worker  startwork \n")
+     // println("worker  startwork \n")
       sender ! Result(ProcessMining(start, nrOfElements, noOfZeroes), whichworker)
     }
 
@@ -119,8 +127,8 @@ class Worker extends Actor {
     var bitcoinmap = new HashMap[String, String]
     var teststring = ""
     var sha = ""
-    var Lastsucessfulhash = "axysads" /*inital string*/
-    println("ProcessMining enter \n")
+    var Lastsucessfulhash = "axysads" /*inital string */
+    //println("ProcessMining enter \n")
     for (i <- start until nrofElements) {
       teststring = gatorID + scala.util.Random.alphanumeric.take(10).mkString + Lastsucessfulhash.substring(0, 7)
       sha = MessageDigest.getInstance("SHA-256").digest(teststring.getBytes("UTF-8")).map("%02x".format(_)).mkString
@@ -139,7 +147,7 @@ object Driver extends App {
     val process = Runtime.getRuntime().availableProcessors()
     val workers = (process) * 3
     val worker = ActorSystem("WorkerSystem").actorOf(Props[Worker].withRouter(RoundRobinRouter(workers)))
-    println("Process \n" + process)
+    
     for (i <- 1 to 8)
       worker ! serverIp(args(0))
   }
