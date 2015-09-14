@@ -1,4 +1,4 @@
-name := "Server"
+name := "Driver"
 
 version := "1.0"
 
